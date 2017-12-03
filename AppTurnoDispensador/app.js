@@ -22,4 +22,5 @@ var server = app.listen(3000,'::1', function () {
     var port = server.address().port;
     console.log('corriendo en http://' + host + ':' + port);
     console.log('ruta: '+server);
+		var valor = 0;
 });
